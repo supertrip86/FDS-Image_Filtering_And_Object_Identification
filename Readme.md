@@ -30,23 +30,7 @@ kernel. In other words, (2σ+1, 1) \* (1, 2σ+1) = (2σ+1, 2σ+1)
 As an example, we will calculate the
 convolution over Gx.T and Dx:
 
-$$
-\left [\begin{matrix} 
-+\\+\\+\\.\\.\\0\\.\\.\\+\\+\\+
-\end{matrix}\right]
-*
-\left [\begin{matrix} 
-+, +, +, +..., 0, -, -, -, -…
-\end{matrix}\right]
-=
-\left[\begin{array}{cc} 
-+ ,+,+,…0,-,-,-,… \\+,+,+,…0,-,-,-,…\\+,+,+,…0,-,-,-,…\\+,+,+,…0,-,-,-,…\\+,+,+,…0,-,-,-,…\\+,+,+,…0,-,-,-,…\\…
-\end{array}\right]
-$$ 
-
-Which results in the following:
-
-![](./images//media/image1.png)
+![](./images//media/image16.png)
 
 The positive side of the kernel represents the higher weight (higher
 frequency) blurring the image (white noise in case of our white dot
